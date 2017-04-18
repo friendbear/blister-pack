@@ -27,6 +27,22 @@
       - {name: "cask", state: "present"}
       - {name: "git", state: "present"}
       - {name: "hub", state: "present"}
+      - {name: "git-flow", state: "present"}
+      - {name: "libyaml", state: "present"}
+      - {name: "mycli", state: "present"}
+      - {name: "cscope", state: "present"}
+      - {name: "ctags", state: "present"}
+      - {name: "gdbm", state: "present"}
+      - {name: "pcre", state: "present"}
+      - {name: "mackup", state: "present"}
+      - {name: "nmap", state: "present"}
+      - {name: "gibo", state: "present"}
+      - {name: "readline", state: "present"}
+      - {name: "the_silver_searcher", state: "present"}
+      - {name: "tig", state: "present"}
+      - {name: "tmux", state: "present"}
+      - {name: "peco", state: "present"}
+      - {name: "nvm", state: "present"}
       - {name: "ruby-build", state: "present"}
       - {name: "rbenv", state: "present"}
       - {name: "rbenv-default-gems", state: "present"}
@@ -37,4 +53,8 @@
       - {name: "openssl", state: "present"}
       - {name: "gdbm", state: "present"}
       - {name: "sqlite", state: "present"}
+      - {name: "vim", state: "present"}
+      - {name: "zsh", state: "present"}
+      - {name: "zsh-completions", state: "present"}
+      - {name: "zsh-syntax-highlighting", state: "present"}
 

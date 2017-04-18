@@ -1,0 +1,19 @@
+---
+- name: Install Applications from homebrew cask
+  homebrew_cask: name={{ item.name }} state={{ item.state }}
+  with_items:
+      - {name: "firefox", state: "present"}
+      - {name: "google-chrome", state: "present"}
+      - {name: "iterm2", state: "present"}
+      - {name: "java", state: "present"}
+      - {name: "sequel-pro", state: "present"}
+      - {name: "tower", state: "present"}
+      - {name: "sourcetree", state: "present"}
+      - {name: "karabiner", state: "present"}
+      - {name: "intellij-idea-ce", state: "present"}
+      - {name: "atom", state: "present"}
+      - {name: "slack", state: "present"}
+      - {name: "vagrant", state: "present"}
+      - {name: "virtualbox", state: "present"}
+      - {name: "docker", state: "present"}
+      - {name: "istat-menus", state: "present"}
